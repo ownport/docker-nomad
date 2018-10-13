@@ -23,6 +23,6 @@ echo '[INFO] Creation nomad user' && \
 
 echo  '[INFO] Creation Nomad environment' && \
     mkdir -p /nomad/data && \
-    mkdir -p /etc/nomad && \
+    mkdir -p /etc/nomad.d && \
     chown -R nomad:nomad /nomad && \
     echo "[INFO] Completed Nomad installation"
